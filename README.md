@@ -9,27 +9,27 @@ This is a binary classification problem with a highly imbalanced dataset, which 
 ### 🧠 What This Notebook Covers  
 This project follows a complete machine learning pipeline:  
 
-### Step	Description  
-1️⃣ Data Overview	File structure, basic samples, dataset shape  
-2️⃣ Missing Value Handling	Detected and imputed MonthlyIncome using age-group medians  
-3️⃣ EDA	Distribution plots, outlier inspection, and feature-target relationships  
-4️⃣ Feature Engineering	Age binning, log transformations, IQR-based clipping, target-aware encoding  
-5️⃣ Encoding & Scaling	Used OneHotEncoder and StandardScaler within a pipeline  
-6️⃣ Logistic Regression	Baseline model with/without class imbalance correction  
-7️⃣ Random Forest	Tree-based model with class_weight='balanced'  
-8️⃣ XGBoost	Tuned with scale_pos_weight to handle imbalance  
-9️⃣ Threshold Tuning	Compared results at multiple thresholds (0.3, 0.5, 0.7)  
-🔟 Final Submission	Probabilities generated and formatted as per Kaggle requirement  
+### Step	Description   
+1️⃣ Data Overview	File structure, basic samples, dataset shape   
+2️⃣ Missing Value Handling	Detected and imputed MonthlyIncome using age-group medians    
+3️⃣ EDA	Distribution plots, outlier inspection, and feature-target relationships    
+4️⃣ Feature Engineering	Age binning, log transformations, IQR-based clipping, target-aware encoding    
+5️⃣ Encoding & Scaling	Used OneHotEncoder and StandardScaler within a pipeline    
+6️⃣ Logistic Regression	Baseline model with/without class imbalance correction    
+7️⃣ Random Forest	Tree-based model with class_weight='balanced'    
+8️⃣ XGBoost	Tuned with scale_pos_weight to handle imbalance    
+9️⃣ Threshold Tuning	Compared results at multiple thresholds (0.3, 0.5, 0.7)      
+🔟 Final Submission	Probabilities generated and formatted as per Kaggle requirement     
 
 ### 📊 Key Techniques Used
 
-✅ Missing value imputation (by group median)
-✅ IQR-based outlier handling
-✅ Binning + custom recoding of categorical variables
-✅ Feature scaling and encoding with ColumnTransformer
-✅ Class imbalance handling: class_weight, scale_pos_weight, and threshold tuning
-✅ Evaluation: precision, recall, F1-score
-✅ Pipeline modeling using Scikit-learn
+✅ Missing value imputation (by group median)  
+✅ IQR-based outlier handling  
+✅ Binning + custom recoding of categorical variables  
+✅ Feature scaling and encoding with ColumnTransformer  
+✅ Class imbalance handling: class_weight, scale_pos_weight, and threshold tuning  
+✅ Evaluation: precision, recall, F1-score  
+✅ Pipeline modeling using Scikit-learn  
 
 ### 🔁 Threshold Tuning Comparison  
 
@@ -57,8 +57,8 @@ Below is a comparison of the major models evaluated during the project. All metr
 ✅ XGBoost gave the best recall while maintaining reasonable precision.  
 
 ### 📁 Repository Structure  
-├── give-me-some-credit-dataset - Project.ipynb   # Final notebook with end-to-end workflow  
-├── submission.csv                      # Kaggle submission file  
+├── give-me-some-credit-dataset - Project.ipynb *(Final notebook with end-to-end workflow)*  
+├── submission.csv                      *(Kaggle submission file)*  
 ├── README.md            
 📦 Deploy with Streamlit: Upload a CSV and get default probability  
 
