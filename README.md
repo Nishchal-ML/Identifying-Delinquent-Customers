@@ -66,5 +66,5 @@ Below is a comparison of the major models evaluated during the project. All metr
 Kaggle – Give Me Some Credit  
 
 ### 👨‍💻 Author   
-### Nishchal Pandey  
-Aspiring Data Scientist | BI Analyst | ML Projects Enthusiast  
+### *Nishchal Pandey*  
+*Aspiring Data Scientist | BI Analyst | ML Projects Enthusiast*
