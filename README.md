@@ -11,9 +11,9 @@ This project follows a complete machine learning pipeline:
 
 Step	Description
 1️⃣ Data Overview	File structure, basic samples, dataset shape
-2️⃣ Missing Value Handling	Detected and imputed MonthlyIncome using age-group medians
+2️⃣ Missing Value Handling	Detected and imputed MonthlyIncome using age-group medians  
 3️⃣ EDA	Distribution plots, outlier inspection, and feature-target relationships
-4️⃣ Feature Engineering	Age binning, log transformations, IQR-based clipping, target-aware encoding
+4️⃣ Feature Engineering	Age binning, log transformations, IQR-based clipping, target-aware encoding  
 5️⃣ Encoding & Scaling	Used OneHotEncoder and StandardScaler within a pipeline
 6️⃣ Logistic Regression	Baseline model with/without class imbalance correction
 7️⃣ Random Forest	Tree-based model with class_weight='balanced'
